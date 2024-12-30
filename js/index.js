@@ -25,7 +25,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-        S.UI.simulate('|#countdown 3||果果祝|贾静|元旦快乐|身体健康|工作顺利！|#icon heart|#icon heart-empty|#icon heart|#time');
+        S.UI.simulate('|#countdown 3||果果祝|贾静|元旦快乐|果果错了|果果应该|当依靠|不能辜负贾静|想要继续|和贾静|走下去|#icon heart|#icon heart-empty|#icon heart|#time');
       }
 
       S.Drawing.loop(function () {
@@ -41,7 +41,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-        S.UI.simulate('|#countdown 3||果果祝|贾静|元旦快乐|身体健康|工作顺利！|#icon heart|#icon heart-empty|#icon heart|#time');
+        S.UI.simulate('|#countdown 3||果果祝|贾静|元旦快乐|果果错了|果果应该|当依靠|不能辜负贾静|想要继续|和贾静|走下去|#icon heart|#icon heart-empty|#icon heart|#time');
       }
 
       S.Drawing.loop(function () {
